@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f3f3"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/rl_title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#fcfafb"
+        android:paddingTop="20dp"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:id="@+id/ks_back_teach"
+            android:src="@drawable/back"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"/>
+        <RelativeLayout
+            android:id="@+id/rl_popup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp" >
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#D7000000"
+                android:textSize="18dp"
+                android:text="教材结算" />
+
+            <ImageView
+                android:id="@+id/iv_down"
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:paddingBottom="14dp"
+                android:layout_centerInParent="true"
+                android:layout_toRightOf="@id/tv"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/select"
+                />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_ex"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:textSize="16sp"
+            android:background="#fcfafb"
+            android:text="导出"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/cur_term"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:text="当前学期： 所有学期"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#fcfafb"
+        >
+        <TextView
+            android:id="@+id/tv_teaching_name"
+            android:layout_width="0dp"
+            android:text="教材名称"
+            android:textColor="#D7000000"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"/>
+        <TextView
+            android:id="@+id/tv_teaching_price"
+            android:layout_width="0dp"
+            android:text="价格"
+            android:textColor="#D7000000"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5" />
+        <TextView
+            android:id="@+id/tv_teaching_date"
+            android:layout_width="0dp"
+            android:text="领用日期"
+            android:textColor="#D7000000"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_teachings"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_weight="1">
+
+    </ListView>
+
+</LinearLayout>

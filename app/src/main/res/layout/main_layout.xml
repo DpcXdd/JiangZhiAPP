@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f3f3"
+
+    >
+
+    <FrameLayout
+        android:id="@+id/main_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:id="@+id/main_linear"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:background="#fcfafb">
+
+        <LinearLayout
+            android:id="@+id/main_tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/main_img1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/main_home" />
+
+            <TextView
+                android:id="@+id/main_text1"
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="主页"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/main_img2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/main_library" />
+            <TextView
+                android:id="@+id/main_text2"
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="图书馆"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_tv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            >
+            <ImageView
+                android:id="@+id/main_img3"
+                android:layout_width="28dp"
+                android:layout_height="28dp"
+                android:src="@drawable/main_teach" />
+            <TextView
+                android:id="@+id/main_text3"
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="教学"
+                android:textSize="11dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/main_tv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/main_img4"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/main_my" />
+
+            <TextView
+                android:id="@+id/main_text4"
+                android:layout_marginTop="2dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="我的"
+                android:textSize="11dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <!--one two three library_layout需要加botton-->
+    <TextView
+        android:layout_above="@id/main_linear"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#41b0a1a1"
+        />
+</RelativeLayout>

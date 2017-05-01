@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f3f3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/topLinear"
+        android:layout_marginBottom="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/my_back"
+            style="@style/backImage"
+            />
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/topText"
+            android:text="通知"
+            />
+    </LinearLayout>
+    <WebView
+        android:id="@+id/wb"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#f9f3f3"
+        android:layout_weight="1">
+    </WebView>
+
+</LinearLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f3f3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/topLinear"
+        >
+
+        <ImageView
+            android:id="@+id/more_image"
+            style="@style/backImage"
+           />
+
+        <TextView
+            android:id="@+id/more_text"
+            style="@style/topText"
+            android:text="新书推荐"
+            />
+    </LinearLayout>
+
+   <GridView
+       android:id="@+id/more_grid"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:numColumns="3"
+       >
+
+
+   </GridView>
+
+
+</LinearLayout>

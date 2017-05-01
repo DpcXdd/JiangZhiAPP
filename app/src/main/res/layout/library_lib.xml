@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f3f3"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/library_lib"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="新书推荐"
+            android:textColor="#d9000000"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/lib_t1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="更多"
+            />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/lib_grid1"
+        android:numColumns="3"
+        android:layout_width="wrap_content"
+        android:layout_height="380dp">
+
+    </GridView>
+
+    <LinearLayout
+    android:layout_marginTop="10dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@drawable/library_lib"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="经典名著"
+        android:textColor="#d9000000"
+        android:textSize="18dp"
+        />
+    <TextView
+        android:id="@+id/lib_t2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:text="更多"
+        />
+</LinearLayout>
+
+    <GridView
+        android:id="@+id/lib_grid2"
+        android:numColumns="3"
+        android:layout_width="wrap_content"
+        android:layout_height="380dp">
+
+    </GridView>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/library_lib"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="专业教材"
+            android:textColor="#d9000000"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/lib_t3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="更多"
+            />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/lib_grid3"
+        android:numColumns="3"
+        android:layout_width="wrap_content"
+        android:layout_height="380dp">
+
+    </GridView>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/library_lib"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="成功励志"
+            android:textColor="#d9000000"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/lib_t4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="更多"
+            />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/lib_grid4"
+        android:numColumns="3"
+        android:layout_width="wrap_content"
+        android:layout_height="380dp">
+
+    </GridView>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/library_lib"
+            android:padding="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大家都在看"
+            android:textColor="#d9000000"
+            android:textSize="18dp"
+            />
+        <TextView
+            android:id="@+id/lib_t5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:text="更多"
+            />
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/lib_grid5"
+        android:numColumns="3"
+        android:layout_width="wrap_content"
+        android:layout_height="380dp">
+
+    </GridView>
+
+</LinearLayout>
+</ScrollView>

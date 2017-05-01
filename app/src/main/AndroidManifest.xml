@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jiangzhiapp">
+
+    <uses-permission android:name="android.permission.INTERNET">
+
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="江职"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".splash.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main.MainActivity"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name=".teach.ChengJiActivity" />
+        <activity android:name=".teach.Cla_TeachActivity" />
+        <activity android:name=".library.FenLeiActivity" />
+        <activity android:name=".teach.KaoShiActivity" />
+        <activity android:name=".library.SearchActivity" />
+        <activity android:name=".teach.XuanKeActivity" />
+        <activity android:name=".my.MySettingActivity"/>
+        <activity android:name=".home.WebViewActivity"/>
+        <activity android:name=".library.MoreActivity"/>
+        <activity android:name=".login.pass.LoginActivity"/>
+        <activity android:name=".login.pass.ResetPass"/>
+        <activity android:name=".login.pass.Update_PassW"/>
+        <activity android:name=".login.pass.UpdPassWord"/>
+        <activity android:name=".login.pass.YZMActivity"/>
+        <activity android:name=".my.MyDataActivity"/>
+        <activity android:name=".my.MyClassActivity"/>
+        <activity android:name=".teach.JiaoCaiJieSuanActivity"/>
+
+    </application>
+
+</manifest>

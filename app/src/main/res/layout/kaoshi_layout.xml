@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f3f3"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        style="@style/topLinear"
+        >
+
+        <ImageView
+            android:id="@+id/ks_back_teach"
+            style="@style/backImage"
+            />
+
+        <TextView
+            style="@style/topText"
+            android:text="考试"
+            />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/kaoshi1"
+        style="@style/other"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="等级考试报名" />
+
+    <TextView
+        android:id="@+id/kaoshi2"
+        style="@style/other"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="等级考试报名查询" />
+
+    <TextView
+        android:id="@+id/kaoshi3"
+        style="@style/other"
+        android:layout_width="wrap_content"
+        android:text="期末考试时间查询" />
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f3f3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        style="@style/topLinear">
+
+        <ImageView
+            android:id="@+id/xuanke_back_teah"
+            style="@style/backImage" />
+
+        <TextView
+            style="@style/topText"
+            android:text="选课"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/xuanke1"
+        style="@style/other"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="选课信息浏览" />
+
+    <TextView
+        android:id="@+id/xuanke2"
+        style="@style/other"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="查询学生选课" />
+
+    <TextView
+        style="@style/other"
+        android:layout_width="wrap_content"
+        android:text="浏览选课学生" />
+
+
+</LinearLayout>

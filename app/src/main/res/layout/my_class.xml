@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f3f3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/topLinear">
+
+        <ImageView
+            android:id="@+id/cla_back_my"
+            style="@style/backImage" />
+
+        <TextView
+            style="@style/topText"
+            android:text="我的班级"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="2dp"
+        android:background="#fcfafb"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:textSize="16dp"
+            android:text="姓名"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:textColor="#000"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:textSize="16dp"
+            android:text="性别"
+            android:textColor="#000"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="#000"
+            android:text="联系方式"
+            android:layout_weight="1.8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ListView
+        android:dividerHeight="2dp"
+        android:divider="#00000000"
+        android:id="@+id/cla_listv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+
+
+
+</LinearLayout>

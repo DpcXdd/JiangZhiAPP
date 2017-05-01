@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f3f3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        style="@style/topLinear">
+
+        <ImageView
+            android:id="@+id/cla_teach_back_teach"
+            style="@style/backImage" />
+
+        <TextView
+            style="@style/topText"
+            android:text="课堂教学"
+             />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/cla_teach1"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="上课班级查询"
+        style="@style/other"
+        />
+
+    <TextView
+        android:id="@+id/cla_teach2"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="空余教室查询"
+        style="@style/other"
+        />
+
+    <TextView
+        android:id="@+id/cla_teach3"
+        android:layout_marginBottom="2dp"
+        android:layout_width="wrap_content"
+        style="@style/other"
+        android:text="借用教室"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        style="@style/other"
+        android:text="空余教室查询"
+        />
+
+
+</LinearLayout>

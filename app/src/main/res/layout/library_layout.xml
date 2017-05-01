@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f3f3"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:paddingTop="20dp">
+
+
+        <com.example.jiangzhiapp.library.LibraryLinearLayout
+            android:id="@+id/lib_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:text="图书馆"
+
+                android:textColor="#dd454444"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:paddingBottom="5dp"
+                android:paddingTop="10dp"
+                android:text="已借图书"
+                android:textColor="#dd454444"
+                android:textSize="16dp" />
+
+        </com.example.jiangzhiapp.library.LibraryLinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/lib_search"
+            android:layout_marginRight="1dp"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:background="@drawable/lib_search" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lib_fenlei"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="20dp"
+                android:layout_marginBottom="1dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/ic_drawer_am" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/lib_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="48dp"
+        android:layout_weight="1">
+
+    </android.support.v4.view.ViewPager>
+
+</LinearLayout>

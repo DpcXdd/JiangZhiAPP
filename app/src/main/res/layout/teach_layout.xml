@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f3f3"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:paddingTop="20dp"
+        android:layout_height="70dp"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="教学"
+        android:textColor="#D7000000"
+        android:textSize="18dp" />
+
+    <ImageView
+        android:layout_margin="15dp"
+        android:background="@drawable/teach_bg"
+        android:layout_width="match_parent"
+        android:layout_height="140dp" />
+
+    <LinearLayout
+        android:id="@+id/teach_linear"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/teach_jcjs"
+                style="@style/teach_linear"
+                android:background="@drawable/teach_js"
+                android:layout_weight="2"
+               >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/teach_jcjs2"
+                    />
+                <TextView
+                    style="@style/teach"
+                    android:text="教材结算" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/teach_cj"
+                style="@style/teach_linear"
+                android:background="@drawable/teach_cj"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:paddingLeft="5dp"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/teach_cj2"
+                    />
+                <TextView
+                    style="@style/teach"
+                    android:text="成绩" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/teach_qj"
+                style="@style/teach_linear"
+                android:background="@drawable/teach_qj"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/teach_qj2"
+                    />
+                <TextView
+                    style="@style/teach"
+                    android:background="@drawable/teach_qj"
+                    android:text="请假" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/teach_xk"
+                style="@style/teach_linear"
+                android:background="@drawable/teach_xk"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/teach_xk2"
+                    />
+
+                <TextView
+                    style="@style/teach"
+                    android:text="选课" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/teach_ktjx"
+                style="@style/teach_linear"
+                android:background="@drawable/teach_jx"
+                android:layout_weight="2"
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/teach_jx2"
+                    />
+                <TextView
+                    style="@style/teach"
+                    android:text="课堂教学" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/teach_ks"
+                style="@style/teach_linear"
+                android:background="@drawable/teach_ks"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:layout_height="40dp"
+                    android:layout_width="40dp"
+                    android:src="@drawable/teach_ks2"
+                    />
+                <TextView
+                    style="@style/teach"
+                    android:text="考试" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/teach_kqcx"
+                style="@style/teach_linear"
+                android:background="@drawable/teach_kq"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/teach_kq2"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    style="@style/teach"
+                    android:background="@drawable/teach_ks"
+                    android:text="考勤查询" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/teach_kbcx"
+                style="@style/teach_linear"
+                android:background="@drawable/teach_kb"
+                android:layout_weight="1"
+                >
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/teach_kb2"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    style="@style/teach"
+                    android:text="课表查询" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f3f3"
+    android:orientation="vertical"
+    tools:context="com.example.jiangzhiapp.my.MySettingActivity">
+
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        style="@style/topLinear"
+        >
+
+        <ImageView
+            android:id="@+id/my_back"
+            style="@style/backImage"
+            />
+
+        <TextView
+            style="@style/topText"
+            android:text="设置"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/my_passwd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/listitem"
+        android:gravity="center_vertical"
+        android:text="修改密码"
+        android:textSize="16dp"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="2dp"
+        android:textColor="#D7000000"
+        />
+    <TextView
+        android:id="@+id/my_foundpasswd"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/listitem"
+        android:gravity="center_vertical"
+        android:text="找回密码"
+        android:textSize="16dp"
+        android:paddingLeft="20dp"
+        android:layout_marginBottom="2dp"
+        android:textColor="#D7000000"
+        />
+    <RelativeLayout
+        android:id="@+id/my_update"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/listitem"
+        android:layout_marginBottom="10dp"
+        >
+
+
+        <TextView
+            android:id="@+id/update"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:text="版本更新"
+            android:paddingLeft="20dp"
+            android:textSize="16dp"
+            android:textColor="#D7000000"
+            />
+        <TextView
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center_vertical"
+            android:layout_marginTop="2dp"
+            android:text="当前为最新版本  "
+            android:layout_marginRight="30dp"
+            android:paddingLeft="20dp"
+            android:textSize="13dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/my_exit"
+        android:layout_width="match_parent"
+        android:background="#fcfafb"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#ff0008"
+        android:layout_marginBottom="100dp"
+        android:text="退出登陆"
+        android:textSize="16dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f9f3f3"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_marginBottom="10dp"
+                style="@style/topLinear">
+                <ImageView
+                    android:id="@+id/data_back_my"
+                    style="@style/backImage" />
+
+                <TextView
+                    style="@style/topText"
+                    android:text="我的资料"
+                    />
+            </LinearLayout>
+
+            <TextView
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:background="#fcfafb"
+                android:text="个人资料"
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/listitem"
+                android:layout_marginBottom="2dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="姓名"
+                    android:paddingLeft="20dp"
+                    android:textSize="16dp"
+                    android:textColor="#D7000000"
+                    />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="许集泓  "
+                    android:layout_marginRight="30dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="13dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/listitem"
+                android:layout_marginBottom="2dp"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="性别"
+                    android:paddingLeft="20dp"
+                    android:textSize="16dp"
+                    android:textColor="#D7000000"
+                    />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="男  "
+                    android:layout_marginRight="30dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="13dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/listitem"
+                android:layout_marginBottom="2dp"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="电话"
+                    android:paddingLeft="20dp"
+                    android:textSize="16dp"
+                    android:textColor="#D7000000"
+                    />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="13427431234  "
+                    android:layout_marginRight="30dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="13dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/listitem"
+                android:layout_marginBottom="10dp"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="所在地"
+                    android:paddingLeft="20dp"
+                    android:textSize="16dp"
+                    android:textColor="#D7000000"
+                    />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="广东  "
+                    android:layout_marginRight="30dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="13dp"
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:gravity="center_vertical"
+                android:paddingLeft="20dp"
+                android:background="#fcfafb"
+                android:text="学籍资料"
+                android:layout_marginBottom="2dp"
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/listitem"
+                android:layout_marginBottom="2dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="学校"
+                    android:paddingLeft="20dp"
+                    android:textSize="16dp"
+                    android:textColor="#D7000000"
+                    />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="江门职业技术学院  "
+                    android:layout_marginRight="30dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="13dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/listitem"
+                android:layout_marginBottom="2dp"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="院系"
+                    android:paddingLeft="20dp"
+                    android:textSize="16dp"
+                    android:textColor="#D7000000"
+                    />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="电子与信息技术系  "
+                    android:layout_marginRight="30dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="13dp"
+                    />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/listitem"
+                android:layout_marginBottom="2dp"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="专业"
+                    android:paddingLeft="20dp"
+                    android:textSize="16dp"
+                    android:textColor="#D7000000"
+                    />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="计算机应用技术  "
+                    android:layout_marginRight="30dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="13dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/my_update"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/listitem"
+                android:layout_marginBottom="2dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="学历"
+                    android:paddingLeft="20dp"
+                    android:textSize="16dp"
+                    android:textColor="#D7000000"
+                    />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="专科  "
+                    android:layout_marginRight="30dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="13dp"
+                    />
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/listitem"
+                android:layout_marginBottom="30dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="入学年份"
+                    android:paddingLeft="20dp"
+                    android:textSize="16dp"
+                    android:textColor="#D7000000"
+                    />
+                <TextView
+                    android:layout_alignParentRight="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="2dp"
+                    android:text="2015年  "
+                    android:layout_marginRight="30dp"
+                    android:paddingLeft="20dp"
+                    android:textSize="13dp"
+                    />
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
